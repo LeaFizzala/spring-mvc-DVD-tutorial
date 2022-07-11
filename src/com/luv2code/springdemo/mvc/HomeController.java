@@ -13,5 +13,11 @@ public class HomeController {
 		//put the name of the page that will be shown, but without the prefix and suffix
 		return "main-menu";
 	}
+	
+	@RequestMapping("/form")
+	public String processForm() {
+		//put the name of the page that will be shown, but without the prefix and suffix
+		return "helloworld";
+	}
 
 }
